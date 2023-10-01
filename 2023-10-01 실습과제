@@ -10,7 +10,9 @@ public class Main {
         System.out.print("본인의 학번을 입력하세요: ");
         String studentId = scanner.nextLine();
 
-        System.out.println("이름: " + name + ", 학번: " + studentId);
+        System.out.print("본인의 학과를 입력하세요: ");
+        String department = scanner.nextLine();
+
+        System.out.println("이름: " + name + ", 학번: " + studentId + ", 학과: " + department);
     }
 }
-
