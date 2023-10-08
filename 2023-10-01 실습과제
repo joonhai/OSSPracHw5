@@ -15,7 +15,8 @@ public class Main {
 
         System.out.print("본인의 학교명을 입력하세요: ");
         String schoolName = scanner.nextLine();
+        
+        System.out.print("본인의 학년을 입력하세요: ");  
+        String grade = scanner.nextLine();  
 
-        System.out.println("이름: " + name + ", 학번: " + studentId + ", 학과: " + department + ", 학교명: " + schoolName);
-    }
-}
+        System.out.println("이름: " + name + ", 학번: " + studentId + ", 학과: " + department + ", 학교명: " + schoolName + ", 학년: " + grade);  // 학년 출력 부분 추가
