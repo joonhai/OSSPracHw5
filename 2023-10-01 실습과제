@@ -13,9 +13,6 @@ public class Main {
         System.out.print("본인의 학과를 입력하세요: ");
         String department = scanner.nextLine();
 
-        System.out.print("본인의 학교명을 입력하세요: ");
-        String schoolName = scanner.nextLine();
-
-        System.out.println("이름: " + name + ", 학번: " + studentId + ", 학과: " + department + ", 학교명: " + schoolName);
+        System.out.println("이름: " + name + ", 학번: " + studentId + ", 학과: " + department);
     }
 }
